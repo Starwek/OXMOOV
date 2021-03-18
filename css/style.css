@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background:no-repeat #E8F4FF url(Calque2.png);
+    background-position: top right;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+.logo{
+    font-size:2.5em;
+    position:absolute;
+    top:0;
+    align-items: center;
+    font-weight:bolder;
+    margin-left: 10%;
+}
+
+ul.nav a{ 
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:black;
+    align-items: center;
+    justify-content:center;
+    font-weight: 500;
+  }
+
+
+
+.nav li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+.nav{
+      text-align: center;
+      margin-right: 300px;
+      margin-top: 38px;
+  }
+
+
+
+.nav-right a{
+  position:relative;
+  left: 1220px;
+  bottom: 75px;
+  
+}
+
+.signin{
+	background-color:#ffffff;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#FBDA8D;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  box-shadow:6px 7px 19px #ffffff48;
+  font-weight: 600;
+}
+
+.login{
+  font-weight: medium;
+  background:#FBDA8D;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  box-shadow:6px 7px 19px #fbda8d48;
+  font-weight: 600;
+}
+
+.rose-probleme{
+  position: relative;
+  font-size:45px;
+  color:#F84994;
+  font-weight: 600;
+  text-align: center;
+  right: 320px;
+  top: 80px ;
+}
+
+
+.noir-text{
+  position: relative;
+  font-size:45px;
+  color:#000000;
+  font-weight: 600;
+  text-align: center;
+  right: 320px;
+  top: 80px ;
+}
+
+
+section .titre{
+  position: relative;
+  font-size:50px;
+  color:#000000;
+  font-weight: 600;
+  text-align: justify;
+  left: 400px;
+  top: 80px ;
+  line-height: 130%;
+}
+
+.span-rose{
+  color:#F84994;
+}
+
+.text-petit{
+  position: relative;
+  font-size:20px;
+  color:#000000;
+  font-weight: 600;
+  text-align: justify;
+  left: 400px;
+  top: 30px ;
+}
+
+section div.cercle{
+  position: relative;
+  width: 533px;
+  height: 533px;
+  border-radius: 266.5px;
+  background: #facd89;
+  left:1050px;
+  bottom:900px;
+}
+
+section div.flou-cercle{
+  position: relative;
+  width: 572px;
+  height: 572px;
+  border-radius: 286px;
+  background: #facd89;
+  filter: blur(30px) ;
+  left:1030px;
+  bottom:335px;
+}
+
+section div.cadre1{
+  position: relative;
+  width: 214px;
+  height: 269px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
+  bottom:1350px;
+  left:950px;
+}
+
+
+section div.photo1{
+  position: relative;
+  width: 140px;
+  height: 176px;
+  background-image: url("../images/Rectangle1.png");
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
+  bottom:50px;
+  left:30px;
+}
+
+section div.cadre2{
+  position: relative;
+  width: 214px;
+  height: 269px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
+  bottom:1619px;
+  left:1200px;
+}
+
+section div.photo2{
+  position: relative;
+  width: 140px;
+  height: 176px;
+  border-radius: 16px;
+  background-image: url("../images/Rectangle2.png");
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
+  bottom:50px;
+  left:30px;
+}
+
+
+section div.cadre3{
+  position: relative;
+  width: 214px;
+  height: 269px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
+  bottom:1885px;
+  left:1450px;
+}
+
+section div.photo3{
+  position: relative;
+  width: 140px;
+  height: 176px;
+  border-radius: 16px;
+  background-image: url("../images/Rectangle3.png");
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
+  bottom:50px;
+  left:30px;
+}
+
+section div p.text-photo1{
+  position: relative;
+  text-align: center;
+  bottom: 50px;
+  font-weight: 400;
+}
+
+section div p.text-photo2{
+  position: relative;
+  text-align: center;
+  bottom: 50px;
+  font-weight: 400;
+}
+
+section div p.text-photo3{
+  position: relative;
+  text-align: center;
+  bottom: 50px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.flou-cercle-gauche{
+  position: relative;
+  width: 890px;
+  height: 890px;
+  border-radius: 445px;
+  background: #fbda8d;
+  filter: blur(30px) ;
+  bottom:1900px;
+  right:500px;
+}
+
+section div.apple-download{
+  image:url("../images/appledownload.png");
+}
+
+section div.google-download{
+  image:url("../images/googledownload.png");
+}
