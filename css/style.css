@@ -4,7 +4,8 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background:no-repeat #E8F4FF url(Calque2.png);
-    background-position: top right;
+    /*background-position: top right;*/
+    background-position: 100% 0%;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -13,16 +14,18 @@ body{
 }
 
 
-
+/*LOGO OXMOOV DEBUT */
 .logo{
     font-size:2.5em;
-    position:absolute;
-    top:0;
+    position:relative;
+    bottom: 30%;
     align-items: center;
     font-weight:bolder;
     margin-left: 10%;
 }
+/*LOGO OXMOOV FIN */
 
+/* NAV MID DEBUT */
 ul.nav a{ 
     text-decoration: none;
     list-style-type: none;
@@ -32,7 +35,7 @@ ul.nav a{
     color:black;
     align-items: center;
     justify-content:center;
-    font-weight: 500;
+    font-weight: 600;
   }
 
 
@@ -44,18 +47,33 @@ ul.nav a{
   }
 
 .nav{
+      position:relative;
       text-align: center;
-      margin-right: 300px;
-      margin-top: 38px;
+      /*bottom: 100px;
+      right: 8%;*/
+      bottom: 10vh;
+      right: 8%;
   }
 
+/* NAV MID FIN */
 
-
+/* NAV DROITE DEBUT */
 .nav-right a{
   position:relative;
-  left: 1220px;
-  bottom: 75px;
-  
+  /*left: 1250px;
+  bottom: 180px;
+  margin-right: 20px; */
+  left: 68%;
+  bottom: 18vh;
+  margin-right: 1%;
+ 
+}
+
+.nav-right{
+  position:relative;
+  /*right: 10px;*/
+  right: 0;
+
 }
 
 .signin{
@@ -68,8 +86,8 @@ ul.nav a{
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-  box-shadow:6px 7px 19px #ffffff48;
-  font-weight: 600;
+  box-shadow: 6px 7px 19px rgba(0, 0, 0, 0.28);
+  font-weight: 700;
 }
 
 .login{
@@ -83,9 +101,32 @@ ul.nav a{
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-  box-shadow:6px 7px 19px #fbda8d48;
-  font-weight: 600;
+  box-shadow: 6px 7px 19px rgba(0, 0, 0, 0.28);
+  font-weight: 700;
 }
+
+/* NAV DROITE FIN */
+
+/* BOUTON GOOGLE ET APPLE DEBUT */
+.google-download{
+  position:relative;
+  /*left: 370px;
+  bottom: 50px;*/
+  left: 20%;
+  bottom: 5vh;
+}
+
+.apple-download{
+  position:relative;
+  /*left: 350px;
+  bottom: 50px; */
+  left: 19%;
+  bottom: 5vh;
+}
+
+/* BOUTON GOOGLE ET APPLE FIN */
+
+/* TEXT PRINCIPAL MID DEBUT*/
 
 .rose-probleme{
   position: relative;
@@ -93,8 +134,6 @@ ul.nav a{
   color:#F84994;
   font-weight: 600;
   text-align: center;
-  right: 320px;
-  top: 80px ;
 }
 
 
@@ -104,8 +143,8 @@ ul.nav a{
   color:#000000;
   font-weight: 600;
   text-align: center;
-  right: 320px;
-  top: 80px ;
+  /*right: 320px;
+  top: 80px ; */
 }
 
 
@@ -115,9 +154,12 @@ section .titre{
   color:#000000;
   font-weight: 600;
   text-align: justify;
-  left: 400px;
-  top: 80px ;
   line-height: 130%;
+  left: 21%;
+  bottom: 5vh;
+  /*left: 400px;
+  bottom: 60px ;*/
+  
 }
 
 .span-rose{
@@ -130,9 +172,14 @@ section .titre{
   color:#000000;
   font-weight: 600;
   text-align: justify;
-  left: 400px;
-  top: 30px ;
+  /*left: 400px;
+  bottom: 90px ;*/
+  left: 21.3%;
+  bottom: 10vh;
 }
+/* TEXT PRINCIPAL MID FIN*/
+
+/* CERCLE DROITE + FLOU DEBUT */
 
 section div.cercle{
   position: relative;
@@ -140,8 +187,10 @@ section div.cercle{
   height: 533px;
   border-radius: 266.5px;
   background: #facd89;
-  left:1050px;
-  bottom:900px;
+  /*left:1050px;
+  bottom:1100px;*/
+  left: 55%;
+  bottom: 113vh;
 }
 
 section div.flou-cercle{
@@ -151,9 +200,15 @@ section div.flou-cercle{
   border-radius: 286px;
   background: #facd89;
   filter: blur(30px) ;
-  left:1030px;
-  bottom:335px;
+  /*left:1030px;
+  bottom:535px;*/
+  left: 54%;
+  bottom: 55vh;
 }
+
+/* CERCLE DROITE + FLOU FIN*/
+
+/* CADRE MID DEBUT*/
 
 section div.cadre1{
   position: relative;
@@ -162,19 +217,41 @@ section div.cadre1{
   border-radius: 30px;
   background: #fff;
   box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
-  bottom:1350px;
-  left:950px;
+  /*bottom:1550px;
+  left:950px;*/
+  bottom: 160vh;
+  left: 50%;
 }
 
+
+.fa-star{
+  font-size: 28px;
+  position: relative;
+  bottom: 70px;
+  left: 25px;
+  color:#FACD89;
+  filter: drop-shadow(2px 3px 8px rgba(0, 0, 0, 0.17));
+}
 
 section div.photo1{
   position: relative;
   width: 140px;
   height: 176px;
+  border-radius: 16px;
   background-image: url("../images/Rectangle1.png");
   box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
-  bottom:50px;
-  left:30px;
+  /*bottom:50px;
+  left:30px;*/
+  bottom: 20%;
+  left: 15%;
+}
+
+.text-excellent1{
+  position: relative;
+  text-align: center;
+  /*bottom: 60px;*/
+  bottom:23%;
+  font-weight: 600;
 }
 
 section div.cadre2{
@@ -184,8 +261,10 @@ section div.cadre2{
   border-radius: 30px;
   background: #fff;
   box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
-  bottom:1619px;
-  left:1200px;
+  /*bottom:1819px;
+  left:1200px;*/
+  bottom: 187.7vh;
+  left: 63%;
 }
 
 section div.photo2{
@@ -195,9 +274,12 @@ section div.photo2{
   border-radius: 16px;
   background-image: url("../images/Rectangle2.png");
   box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
-  bottom:50px;
-  left:30px;
+  /*bottom:50px;
+  left:30px;*/
+  bottom: 20%;
+  left:15%;
 }
+
 
 
 section div.cadre3{
@@ -207,8 +289,10 @@ section div.cadre3{
   border-radius: 30px;
   background: #fff;
   box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
-  bottom:1885px;
-  left:1450px;
+  /*bottom:2085px;
+  left:1450px;*/
+  bottom: 215.5vh;
+  left:76%;
 }
 
 section div.photo3{
@@ -218,40 +302,93 @@ section div.photo3{
   border-radius: 16px;
   background-image: url("../images/Rectangle3.png");
   box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.27);
-  bottom:50px;
-  left:30px;
+  /*bottom:50px;
+  left:30px;*/
+  bottom: 20%;
+  left: 15%;
 }
+
+
 
 section div p.text-photo1{
   position: relative;
   text-align: center;
-  bottom: 50px;
+  /*bottom: 50px;*/
+  bottom: 20%;
   font-weight: 400;
 }
 
 section div p.text-photo2{
   position: relative;
   text-align: center;
-  bottom: 50px;
+  bottom: 20%;
   font-weight: 400;
 }
 
 section div p.text-photo3{
   position: relative;
   text-align: center;
-  bottom: 50px;
+  bottom: 20%;
   font-weight: 400;
+}
+
+section div.bouton-chat{
+  position: relative;
+  /*bottom: 5px;*/
+  bottom: 0.5vh;
+  width: 77px;
+  height: 77px;
+  border-radius: 38.5px;
+  background: linear-gradient(#d4d4d4 0%, #fff 100%);
+}
+
+section div.arriere-chat{
+  position: relative;
+  bottom: 2000px;
+  left: 1160px;
+  width: 77px;
+  height: 77px;
+  border-radius: 38.5px;
+  background: #f6c595;
+  box-shadow: 2px 5px 11px rgba(0, 0, 0, 0.33);
+}
+
+
+section div.arriere-star{
+  position: relative;
+  bottom: 2077px;
+  left: 1360px;
+  width: 77px;
+  height: 77px;
+  border-radius: 38.5px;
+  background: #f6c595;
+  box-shadow: 2px 5px 11px rgba(0, 0, 0, 0.33);
+
+}
+
+section div.bouton-star{
+  position: relative;
+  bottom: 5px;
+  width: 77px;
+  height: 77px;
+  border-radius: 38.5px;
+  background: linear-gradient(#d4d4d4 0%, #fff 100%);
+}
+
+section div.arriere-chat div.bouton-chat svg.bouton-chat-in{
+  position: relative;
+  left: 20px;
+  top: 20px;
+  
+
 }
 
 
 
 
+/* CADRE MID FIN*/
 
-
-
-
-
-
+/* CERCLE FLOU GAUCHE DEBUT*/
 
 div.flou-cercle-gauche{
   position: relative;
@@ -260,9 +397,12 @@ div.flou-cercle-gauche{
   border-radius: 445px;
   background: #fbda8d;
   filter: blur(30px) ;
-  bottom:1900px;
+  bottom: 280vh;
   right:500px;
 }
+/* CERCLE FLOU GAUCHE FIN*/
+
+/* BOUTTON APPLE ET GOOGLE DEBUT*/
 
 section div.apple-download{
   image:url("../images/appledownload.png");
@@ -271,3 +411,205 @@ section div.apple-download{
 section div.google-download{
   image:url("../images/googledownload.png");
 }
+
+/* BOUTTON APPLE ET GOOGLE FIN*/
+
+/* CAMION ET TEXT MID DEBUT*/
+section h1.car-rent{
+  position: absolute;
+  top: 100%;
+  right: 81%;
+  font-size: 100px;
+  max-width: 10%;
+  color: #46A5CE;
+  line-height:  100%;
+}
+section h1.car-rent span{
+  color: #0C3D66;
+}
+
+section div.camion-mid{
+    position: relative;
+    bottom: 308vh;
+    left: 83vh;
+}
+
+
+section p.text-rent{
+  position: relative;
+  color: #6D6E70;
+  max-width: 32%;
+  font-size: 23px;
+  bottom: 250vh;
+  left: 9.5%;
+}
+
+
+
+section div.bouton-savoir{
+  cursor: pointer;
+  background-color: #FACD89;
+  width: 183px;
+  height: 60px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 370vh;
+  left: 10%;
+}
+
+section div a.lien-savoir{
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px 31px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* CAMION ET TEXT MID FIN*/
+
+
+
+
+
+
+
+
+/* BOUTTON HELP FIX DEBUT */
+
+div.help-button-long{
+  position: fixed;
+  top: 880px;
+  right: 40px;;
+  width: 203px;
+  height: 50px;
+  border-radius: 25px;
+  background: #facd89;
+  box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.32);
+}
+
+div.help-button-ask{
+  position: fixed;
+  top: 880px;
+  right: 270px;
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  background: #facd89;
+  box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.32);
+}
+
+div p.need-help{
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 23px;
+  margin: 10px;
+}
+
+div p.need-help-ask{
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 23px;
+  margin: 10px;
+}
+/* BOUTTON HELP FIX FIN */
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+
+
+
+
+
+
+
+/*
+footer{
+  width: 1920px;
+height: 263px;
+border-radius: 151px 151px 0px 0px;
+background: #facd89;
+display: block;
+
+}
+
+footer ul {width:100%; list-style:none;}
+footer ul li {float:left; width:150px; font-weight:bold;}
+footer ul li ul {padding:0;}
+footer ul li ul li {float:none; padding:5px 0; font-weight:normal;}
+
+
+*/
+
+
+footer{
+  width: 1920px;
+  height: 263px;
+  border-radius: 151px 151px 0px 0px;
+  background: #facd89;
+
+}
+
+footer div.footer-align{
+  position: relative;
+  left: 20%;
+  top: 20%;
+  display: inline-block;
+}
+
+footer ul{
+  list-style: none;
+ text-decoration: none;
+}
+
+footer div.title{
+  float: none;
+  margin-right: 10px;
+}
+
+
+
+/*
+footer{
+  width: 1920px;
+height: 263px;
+border-radius: 151px 151px 0px 0px;
+background: #facd89;
+display: block;
+
+}
+
+footer h1.titre{
+  position: relative;
+  left: 200px;
+  top: 70px;
+  font-family: "Uber Move";
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  color: #fff;
+
+}
+
+footer ul{
+  list-style: none;
+  position: relative;
+  left: 25%;
+  bottom: 10%;
+}
+
+footer h1.mini-titre{
+  color: #fff;
+}
+
+footer li{
+  color: grey;
+}
+
+
+
+*/
