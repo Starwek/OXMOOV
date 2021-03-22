@@ -518,7 +518,6 @@ div p.need-help-ask{
 /* BOUTTON HELP FIX FIN */
 
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
 
 
@@ -527,59 +526,17 @@ div p.need-help-ask{
 
 
 
-/*
+
+
+
+
+
+
 footer{
   width: 1920px;
 height: 263px;
 border-radius: 151px 151px 0px 0px;
 background: #facd89;
-display: block;
-
-}
-
-footer ul {width:100%; list-style:none;}
-footer ul li {float:left; width:150px; font-weight:bold;}
-footer ul li ul {padding:0;}
-footer ul li ul li {float:none; padding:5px 0; font-weight:normal;}
-
-
-*/
-
-
-footer{
-  width: 1920px;
-  height: 263px;
-  border-radius: 151px 151px 0px 0px;
-  background: #facd89;
-
-}
-
-footer div.footer-align{
-  position: relative;
-  left: 20%;
-  top: 20%;
-  display: inline-block;
-}
-
-footer ul{
-  list-style: none;
- text-decoration: none;
-}
-
-footer div.title{
-  float: none;
-  margin-right: 10px;
-}
-
-
-
-/*
-footer{
-  width: 1920px;
-height: 263px;
-border-radius: 151px 151px 0px 0px;
-background: #facd89;
-display: block;
 
 }
 
@@ -609,7 +566,3 @@ footer h1.mini-titre{
 footer li{
   color: grey;
 }
-
-
-
-*/
